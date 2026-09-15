@@ -1,0 +1,38 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+
+# Credentials and local settings (including nested .env files)
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Temporary files, logs and editor/OS metadata
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.abacus*
+
+# Deliberately track build/: it contains sources, templates and brand assets.
+# Deliberately track the finished PDF and XLSX deliverables.
