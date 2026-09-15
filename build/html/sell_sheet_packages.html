@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="en-GB"><head><meta charset="UTF-8"><title>TSS Sell Sheet &amp; Packages UK</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:794px;}
+body{font-family:'Inter','Helvetica Neue',Arial,sans-serif;color:#1f2937;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.page{width:794px;min-height:1123px;position:relative;page-break-after:always;display:flex;flex-direction:column;}
+.page:last-child{page-break-after:auto;}
+.band{background:linear-gradient(120deg,#0d2a4d,#2d5378);color:#fff;padding:20px 40px;display:flex;align-items:center;justify-content:space-between;}
+.band h1{font-size:30px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;line-height:1.05;}
+.band img{height:44px;opacity:.95;}
+.wrap{padding:22px 44px 0;flex:1;}
+/* page 1 sell sheet */
+.lead{text-align:center;margin-bottom:12px;}
+.lead h2{font-size:18px;color:#0d2a4d;font-weight:800;line-height:1.25;text-transform:uppercase;}
+.lead p{font-size:12.5px;color:#37474f;margin-top:8px;max-width:640px;margin:8px auto 0;line-height:1.5;}
+.sec-h{font-size:16px;color:#0d2a4d;font-weight:800;text-transform:uppercase;margin:6px 0 8px;}
+.trap{display:flex;gap:20px;align-items:flex-start;}
+.trap .txt{flex:1;}
+ul.tk{list-style:none;}
+ul.tk li{position:relative;padding-left:20px;font-size:12.5px;color:#37474f;margin-bottom:6px;line-height:1.4;}
+ul.tk li:before{content:'';position:absolute;left:0;top:7px;width:8px;height:8px;border-radius:50%;background:#4682B4;}
+.trap .imgs{flex:0 0 240px;display:flex;flex-direction:column;gap:8px;}
+.trap .imgs img{width:100%;height:100px;object-fit:cover;border-radius:10px;box-shadow:0 4px 12px rgba(13,42,77,.25);}
+.dark{background:#0b0f14;color:#fff;border-radius:14px;margin:16px 0;padding:18px 22px;display:flex;gap:20px;align-items:center;}
+.dark img{width:110px;height:140px;object-fit:cover;border-radius:10px;flex:0 0 110px;}
+.dark .dh{font-size:18px;font-weight:800;color:#e7c96b;text-transform:uppercase;line-height:1.15;}
+.dark .dsub{font-size:13px;font-weight:700;margin:6px 0 8px;color:#fff;}
+ul.dk{list-style:none;}
+ul.dk li{position:relative;padding-left:18px;font-size:12px;color:#cbd5e1;margin-bottom:3px;}
+ul.dk li:before{content:'';position:absolute;left:0;top:6px;width:6px;height:6px;border-radius:50%;background:#4682B4;}
+.dark .tag{font-size:12px;font-weight:800;color:#e7c96b;margin-top:8px;}
+.gain h3{font-size:16px;color:#0d2a4d;font-weight:800;text-transform:uppercase;margin-bottom:8px;}
+ul.gk{list-style:none;}
+ul.gk li{position:relative;padding-left:20px;font-size:12.5px;color:#37474f;margin-bottom:6px;line-height:1.4;}
+ul.gk li b{color:#0d2a4d;}
+ul.gk li:before{content:'';position:absolute;left:0;top:7px;width:8px;height:8px;border-radius:50%;background:#c9a84c;}
+.ready{text-align:center;font-size:19px;color:#4682B4;font-weight:800;text-transform:uppercase;margin:14px 0 8px;}
+.ctaband{background:linear-gradient(120deg,#0d2a4d,#2d5378);color:#fff;text-align:center;padding:13px;font-size:22px;font-weight:800;text-transform:uppercase;letter-spacing:1px;}
+.contact{display:flex;align-items:center;justify-content:center;gap:40px;padding:14px 0;}
+.contact img{height:58px;}
+.contact .c{font-size:18px;font-weight:800;color:#0d2a4d;}
+/* packages */
+.subhead{text-align:center;font-size:13px;color:#37474f;max-width:660px;margin:14px auto 4px;line-height:1.5;text-transform:uppercase;font-weight:600;letter-spacing:.3px;}
+.biglabel{text-align:center;font-size:44px;color:#4682B4;font-weight:800;letter-spacing:1px;margin:8px 0 14px;}
+.pkgs{max-width:640px;margin:0 auto;}
+.pkg{text-align:center;margin-bottom:16px;}
+.pkg .nm{font-size:20px;font-weight:800;color:#0d2a4d;}
+.pkg .nm span{color:#4682B4;}
+.pkg .ds{font-size:12.5px;color:#37474f;line-height:1.45;margin-top:4px;max-width:560px;margin-left:auto;margin-right:auto;}
+.vat{text-align:center;font-size:11px;color:#6b7b8c;font-style:italic;margin:2px 0 12px;}
+.feesbox{background:linear-gradient(120deg,#3f5872,#54708c);color:#fff;border-radius:16px;padding:16px 26px;width:340px;margin:6px 44px 0;}
+.feesbox h4{text-align:center;font-size:17px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;}
+.feesbox .fl{text-align:center;font-size:14px;color:#eaf1f8;margin-bottom:3px;letter-spacing:.3px;}
+.fbrow{display:flex;align-items:center;justify-content:space-between;padding:0 44px;}
+.fbrow img{height:96px;}
+.conf{background:#0d2a4d;color:#aebfd2;font-size:8px;line-height:1.5;text-align:justify;padding:10px 44px;margin-top:auto;}
+.conf b{color:#e7c96b;letter-spacing:.5px;}
+.side-imgs{position:absolute;}
+</style></head><body>
+
+<!-- PAGE 1: SELL SHEET -->
+<div class="page">
+<div class="band"><h1>Turn Your Menu<br>Into a Brand Experience</h1><img src="__LOGO_TRANS__" alt="The Secret Server logo"></div>
+<div class="wrap">
+<div class="lead"><h2>Your guests crave more than a meal &mdash; they demand an unforgettable experience.</h2><p>Discover The Secret Server&rsquo;s patented 3D Augmented Reality Menu: turn your existing menu into an interactive mobile sensation. Captivate guests. Drive upsells. Revolutionise training.</p></div>
+<div class="trap">
+<div class="txt"><div class="sec-h">The static menu trap: don&rsquo;t get left behind</div>
+<ul class="tk"><li>Static menus fail in today&rsquo;s mobile world</li><li>Can&rsquo;t grab attention amid distractions</li><li>Miss showcasing what makes your dishes irresistible</li><li>Fail to highlight premium, seasonal or high-margin stars</li><li>Struggle with consistent staff training across teams</li></ul></div>
+<div class="imgs"><img src="https://cdn.abacus.ai/images/92d23588-d3d4-40f0-adc8-f12298191d2b.png" alt="AR burger dish"><img src="https://cdn.abacus.ai/images/e17e4d3d-be67-42b2-9a64-c4f86f03ff28.png" alt="Restaurant ambiance"></div>
+</div>
+<div class="dark"><img src="https://cdn.abacus.ai/images/3ff7609a-8e02-4ff6-bedf-99ac925fee26.png" alt="AR cocktail on phone">
+<div><div class="dh">Unlock the augmented reality revolution: see, touch, sell!</div><div class="dsub">No apps. No hardware. Every item explodes to life.</div>
+<ul class="dk"><li>Interactive 3D views</li><li>Sizzling photos &amp; videos</li><li>Allergens, calories, flavours</li></ul>
+<div class="tag">Not a QR menu. Your silent salesperson &mdash; every shift.</div></div>
+</div>
+<div class="gain"><h3>Supercharge your business &mdash; or watch your competitors do it</h3>
+<ul class="gk"><li><b>Boost engagement:</b> guests linger, explore and crave more</li><li><b>Elevate checks:</b> visuals tempt premium choices and add-ons naturally</li><li><b>Slash hesitation:</b> fewer questions, faster decisions</li><li><b>Turbocharge training:</b> staff master menus via the same immersive AR guests love</li><li><b>Dominate your market:</b> be the buzzworthy venue with &ldquo;3D dish views&rdquo; everyone talks about</li><li><b>Data analytics:</b> see how long your teams train and understand what your guests explore &mdash; all fully GDPR-compliant</li></ul></div>
+<div class="ready">Are you ready to ignite sales and loyalty?</div>
+</div>
+<div class="ctaband">Complete the enquiry form to get started!</div>
+<div class="contact"><div class="c">832.637.6355</div><img src="__LOGO_WHITE__" alt="The Secret Server logo"><div class="c">thesecretserver.co</div></div>
+<div class="conf"><b>CONFIDENTIAL</b> &copy; 2026 The Secret Server. This document and its contents are confidential and proprietary to The Secret Server and are provided solely for the named recipient&rsquo;s evaluation. It may not be reproduced, distributed or disclosed, in whole or in part, without prior written consent. Any personal data referenced herein is processed in accordance with the UK GDPR and the EU General Data Protection Regulation (EU) 2016/679. All pricing, technology and methods described are commercially sensitive and remain the intellectual property of The Secret Server. &bull; 832.637.6355 &bull; thesecretserver.co</div>
+</div>
+
+<!-- PAGE 2: PACKAGES -->
+<div class="page">
+<div class="band"><h1>Turn Your Menu Into a Brand Experience</h1><img src="__LOGO_TRANS__" alt="The Secret Server logo"></div>
+<div class="wrap">
+<div class="subhead">Choose your own adventure with a la carte options, full-suite packages, mixology and culinary development, and award-winning photography and videography</div>
+<div class="biglabel">PACKAGES</div>
+<div class="pkgs">
+<div class="pkg"><div class="nm">STARTER: <span>&pound;2,000</span></div><div class="ds">Limited free demo with up to ten assets &rarr; unlimited views &rarr; upgrade to a higher package for a reduced setup fee &rarr; ideal for independent restaurants or menu tests</div></div>
+<div class="pkg"><div class="nm">ESSENTIALS: <span>&pound;4,500</span></div><div class="ds">Basic 3D AR models + simple integration (QR code/WebAR for menus) &rarr; up to 25 assets/month &rarr; ideal for independent restaurants and clients needing monthly updates</div></div>
+<div class="pkg"><div class="nm">PRO: <span>&pound;12,000</span></div><div class="ds">Advanced rendering (animations, interactions, GDPR-compliant analytics on views/engagement) + multi-location support &rarr; up to 50 assets/month &rarr; ideal for mid-size groups with recurring menus</div></div>
+<div class="pkg"><div class="nm">ENTERPRISE: <span>&pound;10,640+</span></div><div class="ds">Unlimited assets, white-label AR platform, API integrations, custom features (e.g. training modules) &rarr; custom volume &rarr; ideal for larger national chains</div></div>
+<div class="pkg"><div class="nm">HOSPITALITY: <span>&pound;4,800</span></div><div class="ds">Free trial (5 assets) &rarr; Essentials tier + 10 high-res 2D images + basic F&amp;B input</div></div>
+<div class="pkg"><div class="nm">EXPANSION: <span>&pound;20,000+</span></div><div class="ds">Pro tier + on-site shoot for key locations + mixology R&amp;D for seasonal menus</div></div>
+</div>
+<div class="vat">All prices in GBP, +VAT. Monthly maintenance and storage not included.</div>
+</div>
+<div class="fbrow">
+<div class="feesbox"><h4>Monthly Fees</h4><div class="fl">STARTER: up to &pound;120</div><div class="fl">ESSENTIALS: up to &pound;300</div><div class="fl">PRO: up to &pound;720</div><div class="fl">ENTERPRISE: &pound;608+</div></div>
+<img src="__LOGO_WHITE__" alt="The Secret Server logo">
+</div>
+<div class="conf"><b>CONFIDENTIAL</b> &copy; 2026 The Secret Server. This document and its contents are confidential and proprietary to The Secret Server and are provided solely for the named recipient&rsquo;s evaluation. It may not be reproduced, distributed or disclosed, in whole or in part, without prior written consent. Any personal data referenced herein is processed in accordance with the UK GDPR and the EU General Data Protection Regulation (EU) 2016/679. All pricing, technology and methods described are commercially sensitive and remain the intellectual property of The Secret Server. &bull; 832.637.6355 &bull; thesecretserver.co</div>
+</div>
+
+<!-- PAGE 3: A LA CARTE -->
+<div class="page">
+<div class="band"><h1>Go From Static to Immersive Overnight</h1><img src="__LOGO_TRANS__" alt="The Secret Server logo"></div>
+<div class="wrap">
+<div class="biglabel">A LA CARTE OPTIONS</div>
+<div class="pkgs">
+<div class="pkg"><div class="nm">HIGH-RESOLUTION IMAGES: <span>&pound;8</span></div><div class="ds">Photorealistic renders from existing 2D images or item descriptions &rarr; cheaper/faster than traditional shoots; eco-friendly alternative</div></div>
+<div class="pkg"><div class="nm">VIDEO LOOPS: <span>&pound;20</span></div><div class="ds">360&deg; spins, simple animations (e.g. dish reveal) &rarr; each clip 5&ndash;10 seconds &rarr; great for social media/Instagram</div></div>
+<div class="pkg"><div class="nm">VIDEO PACKAGE: <span>&pound;400 EA</span></div><div class="ds">Custom 1&ndash;2 min promo reels (e.g. chef plating, bartender making a drink) &rarr; includes scripting/storyboarding &rarr; ideal for training videos</div></div>
+<div class="pkg"><div class="nm">MIXOLOGY: <span>&pound;400 EA</span></div><div class="ds">Recipe or mix creation + styling notes &rarr; ideal for clients needing new drinks created and visualised + COGS &rarr; ideal for small teams</div></div>
+<div class="pkg"><div class="nm">CULINARY: <span>&pound;2,000 EA</span></div><div class="ds">Recipe or dish creation + styling notes &rarr; ideal for clients needing new dishes created and visualised + COGS &rarr; ideal for small teams</div></div>
+<div class="pkg"><div class="nm">ON-SITE PHOTO/VIDEO SHOOT: <span>&pound;2,400 PER DAY</span></div><div class="ds">For clients needing top-quality source images (e.g. poor existing photos) &rarr; full editing and post-production with video as needed &rarr; discounted AR production bundle</div></div>
+</div>
+<div class="vat">All prices in GBP, +VAT.</div>
+</div>
+<div class="fbrow">
+<img src="__LOGO_WHITE__" alt="The Secret Server logo">
+<div class="feesbox"><h4>Setup Fees (Maximum)</h4><div class="fl">&pound;800: 5&ndash;10 assets</div><div class="fl">&pound;2,000: 11&ndash;25 assets</div><div class="fl">&pound;6,000: 26&ndash;75 assets</div><div class="fl">&pound;8,000: 76&ndash;100 assets</div><div class="fl">101+ assets @ &pound;72 per asset</div></div>
+</div>
+<div class="conf"><b>CONFIDENTIAL</b> &copy; 2026 The Secret Server. This document and its contents are confidential and proprietary to The Secret Server and are provided solely for the named recipient&rsquo;s evaluation. It may not be reproduced, distributed or disclosed, in whole or in part, without prior written consent. Any personal data referenced herein is processed in accordance with the UK GDPR and the EU General Data Protection Regulation (EU) 2016/679. All pricing, technology and methods described are commercially sensitive and remain the intellectual property of The Secret Server. &bull; 832.637.6355 &bull; thesecretserver.co</div>
+</div>
+
+</body></html>
